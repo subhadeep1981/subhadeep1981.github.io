@@ -127,7 +127,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-success\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"><span class=\"mbri-to-ftp mbr-iconfont mbr-iconfont-btn\"></span>Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Our Vision<br></a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" target=\"_blank\">Find a Doctor</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" target=\"_blank\">Your Pharmacy</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Medical Equipments</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Diagnostic @ Home</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Need a Caregiver</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">One Click Emergency</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Blog</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"><span class=\"mbri-to-ftp mbr-iconfont mbr-iconfont-btn\"></span>Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">24x7 CUSTOMER SUPPORT</a></li>"
         },
         {
           "_name": "header1",
@@ -144,7 +144,7 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#000",
             "contentAlign": "right",
@@ -154,7 +154,7 @@
           },
           "title": "MediZop",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Enter</a>  "
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Register</a>  "
         },
         {
           "_name": "footer1",
@@ -178,6 +178,12 @@
           "_styles": {
             ".mbr-section-title, .lead p": {
               "color": "#fff"
+            },
+            "H3": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "left"
             }
           },
           "_tags": [
@@ -186,9 +192,9 @@
           "_name": "msg-box7",
           "_anchor": "msg-box7-3",
           "_params": {
-            "imageSize": "27",
-            "paddingTop": "6",
-            "paddingBottom": "4",
+            "imageSize": "30",
+            "paddingTop": "7",
+            "paddingBottom": "7",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1324.jpg",
@@ -199,12 +205,12 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.6",
             "overlayColor": "#000",
-            "inverse": true,
+            "inverse": false,
             "showTitle": true,
             "showText": true,
-            "showButtons": true
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -213,10 +219,10 @@
             },
             "video": {
               "active": true,
-              "src": "https://www.youtube.com/watch?v=5EOq80kV39k",
-              "aspectratio": "4:3",
+              "src": "https://www.youtube.com/watch?v=8HgtwuIiw58",
+              "aspectratio": "16:9",
               "autoplay": "on",
-              "loop": "on"
+              "loop": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box5",
@@ -224,9 +230,9 @@
               "size": 250
             }
           },
-          "title": "FULL WIDTH INTRO",
-          "text": "Full width intro with adjustable height, background image, parallax effect and a video section. Note that paddings are extended here.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>"
+          "title": "Why MediZop?",
+          "text": "Medizop provides entire healthcare need at your doorstep. Experience the revolutionary digital healtcare platform in your portable devices. Just one click and served.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         }
       ]
     },

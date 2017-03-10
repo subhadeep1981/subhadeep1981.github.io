@@ -482,6 +482,12 @@ h6,
 #msg-box7-3 .lead p {
   color: #fff;
 }
+#msg-box7-3 H3 {
+  text-align: left;
+}
+#msg-box7-3 P {
+  text-align: left;
+}
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
